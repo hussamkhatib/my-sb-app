@@ -47,6 +47,10 @@ new-story story -f src/components/Button/Button.stories.tsx -p size=sm,md,lg
 new-story story -f src/components/Button/Button.stories.tsx -p variant=primary,secondary
 
 ```
+Running Storybook locally
+```
+yarn storybook
+```
 
 ### Screenshots
 
