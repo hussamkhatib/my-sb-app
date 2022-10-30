@@ -1,4 +1,4 @@
-Example app with instructions for how to use [new-story](https://github.com/hussamkhatib/new-story)
+This is an example app with instructions for how to use [new-story](https://github.com/hussamkhatib/new-story) cli.
 
 ### Initial steps
 
@@ -48,3 +48,14 @@ new-story story -f src/components/Button/Button.stories.tsx -p size=sm,md,lg
 new-story story -f src/components/Button/Button.stories.tsx -p variant=primary,secondary
 
 ```
+
+### Screenshots
+
+#### Alert Component Stories
+
+![Alert](https://user-images.githubusercontent.com/52914487/198865915-b4891bb4-1350-4c28-823e-dfafa7114065.png)
+
+#### Button Component Stories
+
+![Button](https://user-images.githubusercontent.com/52914487/198865917-211dd224-7b46-4a64-8009-1d130e6e9438.png)
+
