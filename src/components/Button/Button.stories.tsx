@@ -7,4 +7,16 @@ export default {
 } as ComponentMeta<typeof Button>;
 
 export const Default = () => <Button />;
-export const Size = () => <div className="space-x-4"><Button size="sm" /><Button size="md" /><Button size="lg" /></div>;export const Variant = () => <div className="space-x-4"><Button variant="primary" /><Button variant="secondary" /></div>;
+export const Size = () => (
+  <div className="space-x-4">
+    <Button size="sm" />
+    <Button size="md" />
+    <Button size="lg" />
+  </div>
+);
+export const Variant = () => (
+  <div className="space-x-4">
+    <Button variant="primary" />
+    <Button variant="secondary" />
+  </div>
+);
