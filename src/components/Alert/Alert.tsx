@@ -8,7 +8,7 @@ import classNames from "classnames";
 import { FC } from "react";
 
 interface Props {
-  children: string;
+  children?: string;
   severity?: "error" | "warning" | "info" | "success";
 }
 
@@ -26,8 +26,12 @@ const Alert: FC<Props> = ({ children, severity = "info" }) => {
       {severity === "error" && (
         <ExclamationCircleIcon className="h-6 w-6 text-red-500" aria-hidden />
       )}
-      (severity === "warning" && (
-      <ShieldExclamationIcon className="h-6 w-6 text-yellow-500" aria-hidden />)
+      {severity === "warning" && (
+        <ShieldExclamationIcon
+          className="h-6 w-6 text-yellow-500"
+          aria-hidden
+        />
+      )}
       {severity === "info" && (
         <InformationCircleIcon className="h-6 w-6 text-blue-500" aria-hidden />
       )}
