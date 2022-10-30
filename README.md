@@ -5,7 +5,6 @@ This is an example app with instructions for how to use [new-story](https://gith
 ```bash
 git clone https://github.com/hussamkhatib/my-sb-app.git
 
-
 cd my-sb-app
 
 yarn
