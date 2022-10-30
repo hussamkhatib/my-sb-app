@@ -26,7 +26,7 @@ $ npm i -g new-story
 
 ```bash
 # Move to components dir, as we dont want to create stories for pages etc.
-cd/src/components
+cd src/components
 
 new-story stories
 # stories files will be generated for all the files inside components
